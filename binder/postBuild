@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Import the workspace into JupyterLab
+jupyter lab workspaces import binder/workspace.json
+git config --global user.email "fanggang.wang@foxmail.com"
+git config --global user.name "Fanggang Wang"
